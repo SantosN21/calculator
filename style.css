@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, #1f1f1f 0%, #414141 100%);
+}
+.container {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: black;
+}
+.row {
+  display: flex;
+}
+.result {
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+.button {
+  background-color:  #505050;
+  color: white;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  cursor: pointer;
+}
+#zero {
+    width: 114px;
+    border-radius: 30px;
+    background-color: #505050;
+}
+#modulo, #clear, #pos-neg
+ {
+    color: black;
+    background-color: #D4D4D2;
+ }
+ #multiply, #subtract, #addition, #equals, #divide {
+    background-color: #FF9500;
+ }

@@ -39,8 +39,9 @@ body {
   height: 70px;
   cursor: pointer;
 }
-.button:hover {
-  background-color: white;
+.button:hover,
+#zero:hover {
+  background-color: #969393;
 }
 #zero {
   width: 151px;
@@ -51,12 +52,27 @@ body {
 #clear,
 #pos-neg {
   color: black;
-  background-color: #d4d4d2;
+  background-color: #eeeee9;
 }
+#modulo:hover,
+#clear:hover,
+#pos-neg:hover {
+  background-color: rgb(88, 88, 88);
+}
+
 #multiply,
 #subtract,
 #addition,
 #equals,
 #divide {
   background-color: #ff9500;
+}
+
+#multiply:hover,
+#subtract:hover,
+#addition:hover,
+#equals:hover,
+#divide:hover {
+  color: #ff9500;
+  background-color: #eeeee9;
 }
